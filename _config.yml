@@ -1,0 +1,56 @@
+title: ABLL's home page
+url: http://compute.dtu.dk/~abll
+
+author: Anders Boesen Lindbo Larsen
+author_title: PhD student
+email: abll@dtu.dk
+department: Dept. of Applied Mathematics and Computer Science
+department_url: http://compute.dtu.dk
+university: Technical University of Denmark
+university_url: http://dtu.dk
+
+blog_title: 'Rants by ABLL'
+
+
+baseurl:
+pubs_path: /pubs
+permalink: /:categories/:title
+navigation:
+    - title: Home
+      link: /
+    - title: Blog
+      link: /blog
+    - title: Projects
+      link: /projects
+    - title: Publications
+      link: /publications.html
+    - title: CV
+      link: /cv.html
+
+ga_id: UA-45006161-1
+ga_domain: dtu.dk
+
+pygments: true
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+scholar:
+  style: apa-no-doi-no-issue
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{ reference }} "
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibtex
+  details_layout: bibtex.html
+  details_link: bibtex
+
+  query: "@*"

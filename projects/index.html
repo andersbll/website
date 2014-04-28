@@ -1,0 +1,30 @@
+---
+layout: default
+title: Projects
+---
+
+<h1>My projects</h1>
+
+{% for post in site.posts %}
+{% if post.categories contains 'projects' %}
+<article class="post-listitem">
+<div class="media">
+  <a class="pull-left" href="{{ site.baseurl }}{{ post.url }}">
+    <img class="media-object post-listitem-image" src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+  </a>
+  <div class="media-body">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <h2 class="media-heading">{{ post.title }}</h4>
+    </a>
+    <div class="post-listitem-subheading">
+        <strong>with</strong>
+        {{ post.collaborators }}
+    </div>
+    {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}
+  </div>
+</div>
+</article>
+{% endif %}
+{% endfor %}
+
+
