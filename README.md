@@ -1,7 +1,7 @@
 # ABLL's academic home page
 
-This website is built using [JEKYLL][Jekyll], [JSCHOLAR][Jekyll-Scholar] and [BOOTSTRAP][Bootstrap].
+Source for http://compute.dtu.dk/~abll. The website is built using [Jekyll][jekyll], [Jekyll-Scholar][jscholar] and [Bootstrap][bootstrap].
 
-[BOOTSTRAP]: http://getbootstrap.com/
-[JEKYLL]: http://jekyllrb.com/
-[JSCHOLAR]: http://github.com/inukshuk/jekyll-scholar
+[bootstrap]: http://getbootstrap.com/
+[jekyll]: http://jekyllrb.com/
+[jscholar]: http://github.com/inukshuk/jekyll-scholar
