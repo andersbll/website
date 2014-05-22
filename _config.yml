@@ -11,7 +11,6 @@ university_url: http://dtu.dk
 
 blog_title: 'Rants by ABLL'
 
-
 baseurl:
 pubs_path: /pubs
 permalink: /:categories/:title
