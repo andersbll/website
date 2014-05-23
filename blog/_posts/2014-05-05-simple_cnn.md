@@ -10,7 +10,7 @@ This request reignited a frustration from when I myself started looking into CNN
 Most CNN implementations are either highly optimized GPU code or contain only barebone operations in a non-modular code structure.
 In either case, the code is hard to read and the back-propagation algorithm is difficult to recognize.
 
-As I failed to find anything usable online and, more likely, because I'm a computer scientist at heart, I ended up coded my own CNN from scratch! 
+As I failed to find anything usable online and, more likely, because I'm a computer scientist at heart, I ended up coding my own toy CNN from scratch! 
 The top priority was simplicity - so Python/NumPy was a given.
 For the performance critical operations (convolution and max-pooling), I had to use Cython to get tolerable speed.
 The implementation is [available on my Github][nnet].
