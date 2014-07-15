@@ -7,7 +7,7 @@ layout: default
 
 # About me
 I'm a Ph.D. student advised by [Rasmus Larsen][rlar] and [Anders B. Dahl][abda] in the [Image Analysis and Computer Graphics Group][iacg].
-My work is focused on visual recognition ...
+My work is focused on visual recognition. \[...\]
 
 [rlar]: http://compute.dtu.dk/~rlar
 [abda]: http://compute.dtu.dk/~abda
@@ -23,7 +23,7 @@ My work is focused on visual recognition ...
 ## Online trail
 [Facebook][facebook], [Github][github], [Google Plus][gplus], [Google Scholar][gscholar], [last.fm][lastfm], [LinkedIn][linkedin]
 
-[facebook]: http://github.com/andersbll
+[facebook]: http://facebook.com/andersbll
 [github]: http://github.com/andersbll
 [gplus]: https://plus.google.com/+AndersBoesenLindboLarsen/
 [gscholar]: http://scholar.google.dk/citations?user=DrrClGgAAAAJ
