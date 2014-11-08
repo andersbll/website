@@ -1,6 +1,6 @@
 .PHONY: site serve deploy clean
 
-HOST = linuxterm.imm.dtu.dk
+HOST = thinlinc2.compute.dtu.dk
 WWW_ROOT = www/
 WWW_EXCLUDE = files
 BUILDARGS =
