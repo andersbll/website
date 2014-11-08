@@ -12,11 +12,6 @@ Go ahead and subscribe to the <a class="blog-subscribe" href="{{ site.baseurl }}
 {% if post.categories contains 'blog' %}
 <article class="post-listitem">
 <div class="media">
-  {% if post.image %}
-  <a class="pull-right" href="{{ site.baseurl }}{{ post.url }}">
-    <img class="media-object post-listitem-image" src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
-  </a>
-  {% endif %}
   <div class="media-body">
     <a href="{{ site.baseurl }}{{ post.url }}">
       <h2 class="media-heading">{{ post.title }}</h4>
@@ -24,6 +19,11 @@ Go ahead and subscribe to the <a class="blog-subscribe" href="{{ site.baseurl }}
     <div class="post-listitem-subheading">
         {{ post.date | date_to_long_string }}
     </div>
+    {% if post.image %}
+    <a class="pull-right" href="{{ site.baseurl }}{{ post.url }}">
+      <img class="media-object post-listitem-image" src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+    </a>
+    {% endif %}
     {{ post.excerpt | markdownify }}
   </div>
 </div>
