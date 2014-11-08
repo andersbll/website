@@ -17,8 +17,10 @@ title: Projects
       <h2 class="media-heading">{{ post.title }}</h4>
     </a>
     <div class="post-listitem-subheading">
-        <strong>with</strong>
-        {{ post.collaborators }}
+        {% if post.collaborators %}
+          <strong>with</strong>
+          {{ post.collaborators }}
+        {% endif %}
     </div>
     {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}
   </div>
