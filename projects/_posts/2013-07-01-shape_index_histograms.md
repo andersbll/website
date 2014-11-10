@@ -29,8 +29,8 @@ Also, our SIHs had superior performance on most classes in the competition.
 
 ## Publication
 {% reference larsen2014hep %}
+[PDF]({{ site.pubs_path }}/larsen2014hep.pdf)
 {% cite_details larsen2014hep %}
-/ [preprint]({{ site.pubs_path }}/larsen2014hep_preprint.pdf)
 
 ## Software
 I have a [Python implementation][sih_code] of the shape index histograms online in my [image processing/computer vision toolkit][ipcv].

@@ -17,8 +17,8 @@ This study shows that the suggested vision-based approach to tracking is a promi
 
 ## Publication
 {% reference larsen2014traceability %}
+[PDF]({{ site.pubs_path }}/larsen2014traceability.pdf)
 {% cite_details larsen2014traceability %}
-/ [preprint]({{ site.pubs_path }}/larsen2014traceability_preprint.pdf)
 
 ## Software
 The code is [available][code]. Warning: This was one of my first forays into computer vision programming with Python!
