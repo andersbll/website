@@ -29,7 +29,7 @@ navigation:
 ga_id: UA-45006161-1
 ga_domain: dtu.dk
 
-pygments: true
+highlighter: true
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
@@ -41,15 +41,16 @@ scholar:
   sort_by: none
   order: ascending
 
+  repository: ./pubs
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: "{{ reference }} "
+  bibliography_template: "{{ reference }} {% if links.pdf %}<a href=\"{{ links.pdf }}\">PDF</a> {% endif %} "
 
   replace_strings: true
   join_strings:    true
 
   details_dir:    bibtex
   details_layout: bibtex.html
-  details_link: bibtex
+  details_link: BibTeX
 
   query: "@*"
